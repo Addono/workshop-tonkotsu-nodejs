@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint */**.js",
-    "test": "nyc mocha",
+    "test": "exit 1",
     "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "dependencies": {
